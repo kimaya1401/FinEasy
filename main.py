@@ -13,7 +13,7 @@ from fastapi.responses import HTMLResponse
 import secrets
 
 
-# Task 8.4.14, `FitIn` class
+# `FitIn` class
 class FitIn(BaseModel):
     ticker: str
     use_new_data: bool
@@ -22,26 +22,26 @@ class FitIn(BaseModel):
     q: int
 
 
-# Task 8.4.14, `FitOut` class
+# `FitOut` class
 class FitOut(FitIn):
     success: bool
     message: str
 
 
-# Task 8.4.18, `PredictIn` class
+# `PredictIn` class
 class PredictIn(BaseModel):
     ticker: str
     n_days: int
 
 
-# Task 8.4.18, `PredictOut` class
+# `PredictOut` class
 class PredictOut(PredictIn):
     success: bool
     forecast: dict
     message: str
 
 
-# Task 8.4.15
+# model build function
 def build_model(ticker, use_new_data):
     # Create DB connection
     connection = sqlite3.connect(settings.db_name, check_same_thread=False)
@@ -56,7 +56,7 @@ def build_model(ticker, use_new_data):
     return model
 
 
-# Task 8.4.9
+# Call FastAPI
 app = FastAPI()
 
 API_KEY = secrets.token_urlsafe(32)
