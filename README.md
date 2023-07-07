@@ -2,8 +2,7 @@
 Final year project
 
 # Output
-This output is generated based on a dummy user data provided in code section.
-
+This output is generated based on a Test user data.
 ![Login](Results/Login.png)
 
 ![Interests](Results/Interests.png)
