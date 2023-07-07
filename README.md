@@ -2,6 +2,7 @@
 Final year project
 
 # Output
+This output is generated based on a dummy user data provided in code section.
 
 ![Login](Results/Login.png)
 
