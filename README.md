@@ -8,4 +8,4 @@ Final year project
 ![Expenesebycategory](Results/Expensebycategory.png)
 ![Expenses-Income](Results/Expenses-Income.png)
 ![SavingsCryptoNews](Results/SavingsCryptoNews.png)
-![StockVolatilitypred](Results/StockVolatilitypred.png)
+![Stockvolatilitypred](Results/Stockvolatilitypred.png)
